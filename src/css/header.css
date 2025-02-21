@@ -55,6 +55,10 @@
   min-width: 280px;
 }
 
+.header-block {
+  display: none;
+}
+
 .header-logo {
   width: 168px;
   height: 16px;
@@ -100,6 +104,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .header {
+    left: 100px;
+    right: 100px;
+  }
+
   .header-burger {
     display: none;
   }
@@ -111,7 +120,7 @@
   .header-navigation {
     display: flex;
     gap: 8px;
-    margin-left: 366px;
+    margin-right: 20px;
   }
 
   .header-navigation-item {
@@ -150,5 +159,10 @@
     font-family: 'Inter Tight', sans-serif;
     color: #fff;
     border: none;
+  }
+
+  .header-block {
+    margin-left: 366px;
+    display: block;
   }
 }
