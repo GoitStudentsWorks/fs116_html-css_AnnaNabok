@@ -16,6 +16,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -27,6 +41,22 @@ body {
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
+
+/* main:has(.back-link) {
   text-align: center;
+} */
+
+.section {
+  padding: 80px 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 100px 0;
+  }
+}
+/* Styles for Desktop devices */
+
+/* @media only screen and (min-width: 1280px) {
+  
+} */
