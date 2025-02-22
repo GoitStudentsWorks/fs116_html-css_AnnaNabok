@@ -44,7 +44,7 @@
 } */
 
 .header {
-  background: transparent;
+  background: green;
   top: 28px;
   left: 20px;
   right: 20px;
@@ -62,12 +62,12 @@
 .header-logo {
   width: 168px;
   height: 16px;
+  fill: #fff;
 }
 
 .header-burger {
   width: 32px;
   height: 32px;
-  fill: #fff;
 }
 
 .header-burger-btn {
@@ -75,6 +75,7 @@
   border: none;
   padding: 0;
   height: 32px;
+  fill: #fff;
 }
 
 .header-navigation {
