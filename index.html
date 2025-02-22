@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="works section">
+      <div class="container">
+        <div class="container-img">
+          <picture>
+            <source
+              media="(min-width: 1158px)"
+              srcset="
+                ./images/section1/img-desktop-sechion1-min.jpg    1x,
+                ./images/section1/img-desktop-sechion1@2x-min.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/section1/img1-tablet-section1-min.jpg    1x,
+                ./images/section1/img1-tablet-section1@2x-min.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="
+                ./images/section1/img-mobile-section1-min.jpg    1x,
+                ./images/section1/img-mobile-section1@2x-min.jpg 2x
+              "
+            />
+            <img
+              class="works-img"
+              src="./images/section1/img-desktop-sechion1-min.jpg"
+              width="335"
+              height="452"
+              alt="How it works"
+              class="works-img"
+            />
+          </picture>
+        </div>
+        <div class="container-brief">
+          <div class="container-text">
+            <h2 class="title-works">
+              To order your<span class="text-color"> veg etable</span> basket,
+              simply follow these <span class="text-color">easy steps</span>
+            </h2>
+            <p class="text-works">
+              Our baskets are assembled with care and delivered straight to your
+              doorstep, so you can enjoy the taste of fresh fruit without ever
+              leaving your home.
+            </p>
+            <ul class="container-box">
+              <li class="box">
+                <div class="box-button">1</div>
+                <p class="text-box">
+                  Just choose the<span class="box-color">vegetable</span> you
+                  want to order by clicking on the checkboxes
+                  <span class="box-color">next to it.</span>
+                </p>
+              </li>
+              <li class="box">
+                <div class="box-button">2</div>
+                <p class="text-box box-1">
+                  Click on <span class="box-color"> the basket</span> and fill
+                  out the form.
+                </p>
+              </li>
+              <li class="box">
+                <div class="box-button">3</div>
+                <p class="text-box">
+                  Sit back and relax! Your<span class="box-color">
+                    fresh vegetables</span
+                  >
+                  basket will be delivered.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
