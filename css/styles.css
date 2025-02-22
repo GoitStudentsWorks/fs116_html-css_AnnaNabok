@@ -1,6 +1,5 @@
-mg {
-  display: block;
-  max-width: 100%;
+img {
+  width: 100%;
   height: auto;
 }
 body {
@@ -34,7 +33,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .text-color {
   color: #d4bfc4;
 }
@@ -51,7 +49,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 
 .text-box {
   margin: 0 0 0 76px;
@@ -106,6 +103,10 @@ body {
   .container {
     max-width: 766px;
   }
+  .container-img {
+    padding: 100px 64px;
+  }
+
   .box {
     width: 440px;
     padding: 12px 25px 12px 24px;
@@ -164,11 +165,10 @@ body {
     padding: 0;
     margin: 0;
   }
-.title-works {
-  
-   margin: 0;
- }
- .text-works{
-  margin-bottom: 120px;
- }
+  .title-works {
+    margin: 0;
+  }
+  .text-works {
+    margin-bottom: 120px;
+  }
 }
