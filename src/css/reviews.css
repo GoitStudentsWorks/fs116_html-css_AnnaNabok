@@ -15,7 +15,7 @@
         justify-content: flex-start;
         flex-direction: column;
         width: 335px;
-        padding: 0 20px;
+        padding: 0;
     }
     
     .reviews-title {
@@ -25,10 +25,7 @@
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
-        margin-bottom: 20px;
-        margin-top: 0;
-        
-        
+        margin-bottom: 20px;   
     }
     
     .reviews-title-accent {
@@ -40,16 +37,12 @@
         font-size: 14px;
         line-height: 1.43;
         color: #141414;
-        margin: 0;
-      
     }
     
     .reviews-list {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        padding: 0 20px;
-        margin: 0;
     }
     
     .reviews-item {
@@ -93,7 +86,6 @@
         text-align: center;
         color: #141414;
         margin-bottom: 8px;
-        margin-top: 0;
     }
     
     .reviews-item-text {
@@ -102,7 +94,6 @@
         line-height: 1.43;
         text-align: center;
         color: #858585;
-        margin: 0;
     }
 
 
