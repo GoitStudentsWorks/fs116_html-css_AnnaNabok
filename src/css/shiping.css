@@ -1,0 +1,53 @@
+.shipping .container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.shipping__img {
+	max-width: 500px;
+}
+
+.shipping__content {
+	font-size: 40px;
+	font-weight: 600;
+	color: var(--black);
+	max-width: 506px;
+	letter-spacing: var(--letter-spacing-wide);
+	line-height: 40px;
+}
+
+.shipping__highlight--green {
+	color: #6B8E23;
+}
+
+.shipping__highlight--pink {
+	color: #8B3A62;
+}
+
+@media screen and (max-width: 768px) {
+	.shipping .container {
+		flex-direction: column;
+    gap: 74px;
+	}
+	.shipping__img {
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+	}
+
+	.shipping__content {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.shipping .container {
+		gap: 60px;
+	}
+	.shipping__content {
+		font-size: 28px;
+		line-height: 28px;
+	}
+}
