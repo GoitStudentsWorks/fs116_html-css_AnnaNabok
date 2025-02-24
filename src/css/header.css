@@ -1,13 +1,19 @@
 .header {
   background: transparent;
+  position: absolute;
   top: 28px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
   right: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
-  min-width: 280px;
+  margin: 0 auto;
 }
 
 .header-block {
@@ -45,9 +51,9 @@
 @media screen and (min-width: 768px) {
   .header {
     top: 42px;
-    left: 32px;
-    right: 32px;
-    min-width: 704px;
+    max-width: 768px;
+    padding: 0 32px;
+
   }
 
   .header-logo {
@@ -59,6 +65,7 @@
     width: 40px;
     height: 40px;
   }
+
   .header-burger-btn {
     margin-left: 448px;
   }
@@ -66,16 +73,15 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    left: 100px;
-    right: 100px;
-    min-width: 1080px;
+    max-width: 1280px;
+    padding: 0 100px;
     justify-content: center;
   }
 
   .header-burger {
     display: none;
   }
-  
+
   .header-burger-btn {
     display: none;
   }
