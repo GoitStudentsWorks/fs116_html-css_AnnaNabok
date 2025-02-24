@@ -7,17 +7,16 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 80px;
-  padding: 40px 20px;
+  padding: 20px;
   width: 375px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-container {
   width: 335px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -28,6 +27,8 @@
   flex-direction: row;
   gap: 4px;
   width: 168px;
+  height: 16px;
+  margin-bottom: 14px;
 }
 
 .footer-logo-vector {
@@ -44,15 +45,18 @@
 }
 
 .footer-description {
-  max-width: 335px;
-  font-weight: 500;
+  font-size: 14px;
   line-height: 1.42;
   color: #fbfbfb;
 }
 
-.footer-links {
-  list-style: none;
-  padding: 0;
+.footer-container-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 227px;
 }
 
 .footer-links li {
@@ -75,11 +79,8 @@
 .footer-section-contact {
   width: 215px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 14px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.42;
   color: #fbfbfb;
@@ -116,7 +117,6 @@
   }
 
   .footer-container {
-    
     width: 704px;
     flex-direction: row;
     gap: 212px;
@@ -125,8 +125,9 @@
   .footer-logo {
     align-items: flex-start;
     flex-direction: column;
-    gap: 24px;
-    width: 265px;
+    width: 216px;
+    height: 20px;
+    margin-bottom: 24px;
   }
 
   .footer-description {
@@ -134,20 +135,16 @@
     line-height: 1.25;
   }
 
-  .footer-nav {
-    width: 227px;
-    gap: 24px;
+  .footer-container-info {
+    gap: 64px;
   }
 
   .footer-links li {
-    max-width: 277px;
     margin-bottom: 24px;
   }
 
   .footer-section-contact {
     gap: 24px;
-    font-size: 16px;
-    line-height: 1.25;
   }
 
   .footer-section-bottom {
@@ -182,10 +179,9 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 24px;
-    width: 265px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    width: 216;
+    height: 20px;
+    margin-bottom: 24px;
   }
 
   .footer-description {
@@ -193,20 +189,22 @@
     line-height: 1.25;
   }
 
-  .footer-nav {
-    padding-left: 250px;
+  .footer-container-info {
+    flex-direction: row;
+    gap: 121px;
+    max-width: 565px;
   }
 
   .footer-links li {
     margin-bottom: 24px;
+    max-width: 228px;
   }
 
   .footer-section-contact {
-    width: 216px;
+    max-width: 216px;
     gap: 24px;
     font-size: 16px;
     line-height: 1.25;
-    
   }
 
   .footer-section-bottom {
