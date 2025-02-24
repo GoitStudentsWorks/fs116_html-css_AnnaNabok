@@ -1,4 +1,4 @@
-.visually-hidden {
+visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -74,7 +74,8 @@
   margin: 0px;
 }
 .box {
-  width: 335px;
+  width: 90%;
+  max-width: 335px;
   padding: 12px 27px 12px 24px;
   border-radius: 15px;
   text-align: center;
