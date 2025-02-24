@@ -1,13 +1,16 @@
 /* Section Hero */
 .hero {
+  width: 375px;
   background-color: #576f35;
+  padding: 0 !important;
 }
 
 .hero-first-side {
-  padding: 100px 0px 40px 0px;
+  padding: 100px 20px 40px 20px;
 }
 
 .main-title {
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 52px;
   line-height: 1;
@@ -17,6 +20,7 @@
 }
 
 .hero-text {
+  font-family: 'Inter Tight', sans-serif;
   margin-top: 20px;
   font-weight: 500;
   font-size: 14px;
@@ -35,9 +39,39 @@
   background-size: cover;
   width: 100%;
   height: 372px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-resolution: 2x) {
+  .hero-second-side {
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(/img/hero/image-hero-mob@2x-min.jpg);
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+  }
+
+  .hero-first-side {
+    padding: 120px 32px 52px;
+  }
+
+  .main-title {
+    font-size: 76px;
+  }
+
+  .hero-text {
+    width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .hero-second-side {
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
@@ -50,35 +84,42 @@
     width: 100%;
     height: 536px;
   }
+
+  @media (min-resolution: 2x) {
+    .hero-second-side {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(/img/hero/image-hero-tablet@2x-min.jpg);
+    }
+  }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero {
     display: flex;
-    gap: 36px;
-    padding-right: 0;
-    padding-left: 100;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
   }
 
   .hero-first-side {
-    padding: 232px 0px 52px 0px;
+    max-width: 504px;
+    max-height: 564px;
+    padding: 232px 36px 0px 100px;
   }
 
   .main-title {
-    font-weight: 600;
     font-size: 76px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
   }
 
   .hero-text {
+    width: 472px;
     margin-top: 128px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #fbfbfb;
+    padding-right: 32px;
+    padding-bottom: 52px;
+    padding-left: 0;
   }
 
   .hero-second-side {
@@ -90,7 +131,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-width: 640px;
+    width: 640px;
     height: 796px;
+  }
+
+  @media (min-resolution: 2x) {
+    .hero-second-side {
+      background-image: linear-gradient(
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(/img/hero/Image-hero-desktop@2x-min.jpg);
+    }
   }
 }
