@@ -105,6 +105,7 @@
   }
 
   .hero-first-side {
+    box-sizing: content-box;
     max-width: 504px;
     max-height: 564px;
     padding: 232px 36px 0px 100px;
@@ -123,6 +124,7 @@
   }
 
   .hero-second-side {
+    box-sizing: content-box;
     background-image: linear-gradient(
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
