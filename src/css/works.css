@@ -16,9 +16,12 @@ img {
 .works-img {
   border-radius: 30px;
 }
+.section-works {
+  font-family: Inter Tight;
+  color: #fbfbfb;
+}
 
 .title-works {
-  font-family: Inter Tight;
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
@@ -26,7 +29,6 @@ img {
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #fbfbfb;
 }
 
 .text-color {
@@ -38,7 +40,6 @@ img {
   padding: 80px 20px;
 }
 .text-works {
-  color: #fbfbfb;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.42;
@@ -49,15 +50,16 @@ img {
 
 .text-box {
   margin: 0 0 0 76px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.42;
   letter-spacing: 0em;
   text-align: left;
-
   color: #858585;
 }
+
 .box-color {
+  font-weight: 700;
   color: #141414;
 }
 .container-box {
@@ -65,11 +67,10 @@ img {
   flex-direction: column;
   gap: 20px;
   padding: 0px;
-  margin: 0px;
+  margin-right: 0;
 }
 .box {
-  font-family: Inter Tight;
-  width: 90%;
+  width: 100%;
   max-width: 335px;
   border-radius: 15px;
   text-align: center;
@@ -77,9 +78,6 @@ img {
   position: relative;
   display: flex;
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
   padding: 12px 27px 12px 24px;
 }
 .box-button {
@@ -113,19 +111,18 @@ img {
     max-width: 440px;
   }
   .container-box {
-    margin: -27px;
     gap: 24px;
   }
   .container-text {
     padding: 100px 164px;
   }
   .box-1 {
-    margin: 16px 0 16px 48px;
+    margin: 0 0 0 76px;
     text-align: left;
     align-items: center;
     justify-content: center;
   }
-  .text-works {
+  .text-works .text-box {
     font-size: 16px;
     line-height: 1.43;
     margin-bottom: 52px;
@@ -161,7 +158,9 @@ img {
     padding: 0;
     margin: 0;
   }
-
+  .title-works {
+    margin: 24px;
+  }
   .text-works {
     margin-bottom: 120px;
   }
