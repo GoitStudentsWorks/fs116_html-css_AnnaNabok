@@ -8,13 +8,13 @@
   flex-direction: column;
   gap: 80px;
   padding: 20px;
-  width: 375px;
+  max-width: 375px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .footer-container {
-  width: 335px;
+  max-width: 335px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -120,11 +120,11 @@
   .footer {
     gap: 100px;
     padding: 32px;
-    width: 768px;
+    max-width: 768px;
   }
 
   .footer-container {
-    width: 704px;
+    max-width: 704px;
     flex-direction: row;
     gap: 212px;
     padding: 0;
@@ -173,13 +173,13 @@
   .footer {
     gap: 124px;
     padding: 52px 100px;
-    width: 1280px;
+    max-width: 1280px;
   }
 
   .footer-container {
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1080px;
+    max-width: 1080px;
     flex-direction: row;
     gap: 40px;
   }
