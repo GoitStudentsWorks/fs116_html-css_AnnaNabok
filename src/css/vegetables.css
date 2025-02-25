@@ -1,5 +1,7 @@
 .organic {
   background-color: #7a3145;
+  margin: 0 auto;
+  width: 375px;
 }
 .section-organic-title {
   font-weight: 600;
@@ -66,6 +68,9 @@
   color: #141414;
 }
 @media screen and (min-width: 768px) {
+  .organic {
+    width: 768px;
+  }
   .section-organic-title {
     font-size: 64px;
     line-height: 1;
@@ -94,7 +99,10 @@
     max-width: 280px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
+  .organic {
+    width: 1280px;
+  }
   .organic-list-wrap {
     width: calc((100% - 48px) / 3);
   }
