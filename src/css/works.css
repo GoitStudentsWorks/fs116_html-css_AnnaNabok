@@ -11,7 +11,6 @@ img {
 .container-img {
   background-color: #7a3145;
   padding: 40px 20px;
-  margin-top: -40px;
 }
 
 .works-img {
@@ -104,7 +103,6 @@ img {
   }
   .container-img {
     padding: 100px 64px;
-    margin-top: -100px;
     margin-bottom: -40px;
   }
 
@@ -157,15 +155,13 @@ img {
     width: 50%;
     box-sizing: border-box;
     padding: 100px 100px;
-    margin-top: -40px;
     margin-bottom: 100px;
   }
   .container-text {
     padding: 0;
     margin: 0;
   }
-  .title-works {
-  }
+
   .text-works {
     margin-bottom: 120px;
   }
