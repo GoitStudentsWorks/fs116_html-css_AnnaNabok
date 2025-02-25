@@ -71,8 +71,7 @@ img {
 .box {
   width: 90%;
   max-width: 335px;
-  padding: 12px 9.5px 12px 24px;
-  border-radius: 15px;
+   border-radius: 15px;
   text-align: center;
   background-color: #fbfbfb;
   position: relative;
