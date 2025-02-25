@@ -42,6 +42,11 @@
     width: 148px;
     height: 12px
   }
+
+  .footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .footer-description {
@@ -120,6 +125,7 @@
     width: 704px;
     flex-direction: row;
     gap: 212px;
+    padding: 0;
   }
 
   .footer-logo {
