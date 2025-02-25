@@ -36,7 +36,6 @@ img {
 .container-text {
   background: #576f35;
   padding: 80px 20px;
-  margin-bottom: 80px;
 }
 .text-works {
   color: #fbfbfb;
@@ -108,7 +107,6 @@ img {
   }
   .container-img {
     padding: 100px 64px;
-    margin-bottom: -40px;
   }
 
   .box {
@@ -151,7 +149,6 @@ img {
     align-items: center;
     justify-content: center;
     padding: 0 100px;
-    margin-bottom: 100px;
   }
 
   .container-brief {
@@ -159,7 +156,6 @@ img {
     width: 50%;
     box-sizing: border-box;
     padding: 100px 100px;
-    margin-bottom: 100px;
   }
   .container-text {
     padding: 0;
