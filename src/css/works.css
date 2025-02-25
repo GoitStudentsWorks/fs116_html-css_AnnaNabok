@@ -155,15 +155,13 @@ img {
     width: 50%;
     box-sizing: border-box;
     padding: 100px 100px;
-    margin-top: -40px;
     margin-bottom: 100px;
   }
   .container-text {
     padding: 0;
     margin: 0;
   }
-  .title-works {
-  }
+
   .text-works {
     margin-bottom: 120px;
   }
