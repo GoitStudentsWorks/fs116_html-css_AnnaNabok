@@ -8,13 +8,13 @@
   flex-direction: column;
   gap: 80px;
   padding: 20px;
-  width: 375px;
+  max-width: 375px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .footer-container {
-  width: 335px;
+  max-width: 335px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
