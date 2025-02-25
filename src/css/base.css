@@ -19,15 +19,14 @@
   --letter-spacing-normal: 0;
 
   --black: #141414;
-  --white: #FBFBFB;
-  --chianti: #7A3145;
-  --blush: #D4BFC4;
-  --green: #576F35;
+  --white: #fbfbfb;
+  --chianti: #7a3145;
+  --blush: #d4bfc4;
+  --green: #576f35;
   --grey: #858585;
   --transparent: #141414;
-  --greenlight: #36CB01;
-  --smthwrong: #E74A3B;
-
+  --greenlight: #36cb01;
+  --smthwrong: #e74a3b;
 }
 
 * {
@@ -112,23 +111,10 @@ main {
   overflow: hidden;
 }
 
-.container {
-  max-width: 1080px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
 img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 100px 32px;
-  }
 }
 
 @media (max-width: 375px) {
@@ -138,8 +124,5 @@ img {
     --font-size-h3: 28px;
     --font-size-body: 14px;
     --font-size-button: 18px;
-  }
-  .container {
-    padding: 80px 20px;
   }
 }
