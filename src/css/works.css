@@ -69,6 +69,7 @@ img {
   margin: 0px;
 }
 .box {
+   font-family: Inter Tight;
   width: 90%;
   max-width: 335px;
   border-radius: 15px;
@@ -121,6 +122,7 @@ img {
     padding: 100px 164px;
   }
   .box-1 {
+    margin: 16px 0 16px 48px;
     text-align: left;
     align-items: center;
     justify-content: center;
