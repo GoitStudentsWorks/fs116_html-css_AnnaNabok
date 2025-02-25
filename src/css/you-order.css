@@ -86,6 +86,7 @@
   height: 92px;
   margin-bottom: 20px;
   outline: none;
+  resize: none;
 }
 
 .order-form-input::placeholder,
