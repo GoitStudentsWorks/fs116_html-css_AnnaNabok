@@ -1,6 +1,6 @@
 /* Section Hero */
 .hero {
-  width: 375px;
+  max-width: 375px;
   background-color: #576f35;
   padding: 0 !important;
 }
@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  max-width: 375px;
   height: 372px;
   padding-left: 0;
   padding-right: 0;
@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
   }
 
   .hero-first-side {
@@ -67,7 +67,7 @@
   }
 
   .hero-text {
-    width: 603px;
+    max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -81,7 +81,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     height: 536px;
   }
 
@@ -101,7 +101,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1280px;
+    max-width: 1280px;
   }
 
   .hero-first-side {
@@ -116,7 +116,7 @@
   }
 
   .hero-text {
-    width: 472px;
+    max-width: 472px;
     margin-top: 128px;
     padding-right: 32px;
     padding-bottom: 52px;
