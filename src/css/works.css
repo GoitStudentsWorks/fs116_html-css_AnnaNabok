@@ -71,14 +71,15 @@ img {
 }
 .box {
   width: 100%;
+  min-height: 84px;
   max-width: 335px;
   border-radius: 15px;
+  padding: 12px 27px 12px 24px;
   text-align: center;
   background-color: #fbfbfb;
   position: relative;
   display: flex;
   list-style-type: none;
-  padding: 12px 27px 12px 24px;
 }
 .box-button {
   width: 42px;
@@ -109,6 +110,7 @@ img {
 
   .box {
     max-width: 440px;
+    min-height: 76px;
   }
   .container-box {
     gap: 24px;
@@ -119,8 +121,11 @@ img {
   .box-1 {
     margin: 0 0 0 76px;
     text-align: left;
+    text-align: center;
     align-items: center;
     justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
   }
   .text-works .text-box {
     font-size: 16px;
@@ -159,7 +164,7 @@ img {
     margin: 0;
   }
   .title-works {
-    margin: 24px;
+    margin-bottom: 24px;
   }
   .text-works {
     margin-bottom: 120px;
