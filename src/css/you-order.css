@@ -63,11 +63,11 @@
   outline: none;
 }
 
-.order-form-input:valid {
-  border: 1px solid #3cbc81;
+.order-form-input:not(:placeholder-shown):valid {
+  border: 1px solid var(--greenlight);
 }
 
-.order-form-input:invalid {
+.order-form-input:not(:placeholder-shown):invalid {
   border: 1px solid var(--smthwrong);
 }
 
