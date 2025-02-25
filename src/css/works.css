@@ -71,7 +71,6 @@ img {
 .box {
   width: 90%;
   max-width: 335px;
-  padding: 12px 9.5px 12px 24px;
   border-radius: 15px;
   text-align: center;
   background-color: #fbfbfb;
@@ -108,7 +107,6 @@ img {
 
   .box {
     max-width: 440px;
-    padding: 18px 27px 18px 24px;
   }
   .container-box {
     margin: -27px;
