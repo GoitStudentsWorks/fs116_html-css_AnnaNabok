@@ -108,7 +108,7 @@
   border: 1px solid var(--white);
   display: block;
   border-radius: 12px;
-  padding: 12px;
+  padding: 12px 0;
   width: 118px;
   height: 44px;
 }
