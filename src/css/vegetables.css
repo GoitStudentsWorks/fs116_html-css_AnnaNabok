@@ -1,4 +1,4 @@
-.organic .container {
+.organic {
   background-color: #7a3145;
 }
 .section-organic-title {
@@ -55,7 +55,7 @@
   color: #141414;
 }
 @media screen and (min-width: 768px) {
-.section-organic-title {
+  .section-organic-title {
     font-size: 64px;
     line-height: 1;
     margin-bottom: 24px;
