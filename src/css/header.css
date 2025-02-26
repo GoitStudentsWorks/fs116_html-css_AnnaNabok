@@ -193,7 +193,6 @@
     background: transparent;
     border: 1px solid #fff;
     border-radius: 12px;
-    padding: 12px;
     height: 44px;
     display: flex;
     justify-content: center;
@@ -203,6 +202,7 @@
   .header-navigation-a {
     font-weight: 500;
     font-size: 16px;
+    padding: 12px;
     line-height: 125%;
     text-align: center;
     color: #fff;
