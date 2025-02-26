@@ -18,9 +18,9 @@
   color: #fbfbfb;
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
   .main-title {
-    font-size: 46px;
+    font-size: 42px;
   }
 }
 
@@ -114,10 +114,6 @@
     max-width: 504px;
     max-height: 564px;
     padding: 232px 36px 0px 100px;
-  }
-
-  .main-title {
-    font-size: 76px;
   }
 
   .hero-text {
