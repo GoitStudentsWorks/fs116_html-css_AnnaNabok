@@ -1,6 +1,11 @@
 /* Section Hero */
 .hero {
+  margin: 0 auto;
+  width: 100%;
   background-color: #576f35;
+}
+
+.hero-section {
   padding: 0 !important;
 }
 
@@ -60,7 +65,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    width: 100%;
   }
 
   .hero-first-side {
@@ -102,11 +107,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero {
+  .hero-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1280px;
   }
 
   .hero-first-side {
