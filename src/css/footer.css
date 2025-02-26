@@ -1,5 +1,5 @@
 .footer {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   background-color: #7a3145;
   color: white;
   display: flex;
@@ -32,7 +32,7 @@
 .footer-logo-vector {
   fill: #fbfbfb;
   width: 188px;
-  height: 17px
+  height: 17px;
 }
 
 @media screen and (min-width: 375px) {
@@ -42,7 +42,12 @@
 
   .footer-logo-vector {
     width: 148px;
-    height: 12px
+    height: 12px;
+  }
+
+  .footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -98,11 +103,13 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 16px;
-  width: 335px;
+  max-width: 335px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
   color: #d4bfc4;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-section-bottom a {
@@ -119,7 +126,7 @@
   .footer {
     gap: 100px;
     padding: 32px;
-    width: 768px;
+    max-width: 768px;
   }
 
   .footer-container {
@@ -157,26 +164,26 @@
   .footer-section-bottom {
     flex-direction: row;
     gap: 284px;
-    width: 704px;
+    max-width: 704px;
     font-size: 16px;
     line-height: 1.25;
     color: #d4bfc4;
+    padding: 0;
   }
-
 }
 
 /* --------- Desktop -----  */
 @media screen and (min-width: 1280px) {
-
   .footer {
     gap: 124px;
     padding: 52px 100px;
-    width: 1280px;
+    max-width: 1280px;
   }
 
   .footer-container {
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1080px;
     max-width: 1080px;
     flex-direction: row;
     gap: 40px;
@@ -220,6 +227,6 @@
     font-size: 14px;
     opacity: 0.8;
     gap: 660px;
-    width: 1080px;
+    max-width: 1080px;
   }
 }
