@@ -1,10 +1,11 @@
 <header class="header">
-  <a href="." class="header-logo-link">
+  <div class="container">
+  <a href="/index.html" class="header-logo-link">
     <svg class="header-logo">
       <use class="header-logo-vector" href="/img/sprite.svg#header-logo"></use>
     </svg>
   </a>
-  <button type="button" class="header-burger-btn">
+  <button type="button" class="header-burger-btn" mobile-menu-open>
     <svg class="header-burger">
       <use
         class="header-burger-vector"
@@ -26,4 +27,20 @@
     </ul>
   </div>
   <button class="header-btn" data-modal-open>Shop now</button>
+  <div class="mobile-menu" mobile-menu>
+    <div class="mobile-menu-container">
+      <button class="mobile-close-btn" type="button" mobile-menu-close>
+        <svg class="mobile-close-icon" width="20" height="20">
+          <use href="/img/sprite.svg#icon-x"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item"><a href="#how" class="mobile-menu-link curr-page">How It Works</a></li>
+        <li class="mobile-menu-item"><a href="#vegetables" class="mobile-menu-link">Vegetables</a></li>
+        <li class="mobile-menu-item"><a href="#reviews" class="mobile-menu-link">Reviews</a></li>
+      </ul>
+      <a href="#order" class="mobile-order-link">Shop now</a>
+    </div>
+  </div>
+  </div>
 </header>
