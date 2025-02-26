@@ -19,6 +19,12 @@
   color: #fbfbfb;
 }
 
+@media screen and (max-width: 350px) {
+  .main-title {
+    font-size: 42px;
+  }
+}
+
 .hero-text {
   font-family: 'Inter Tight', sans-serif;
   margin-top: 20px;
@@ -109,10 +115,6 @@
     max-width: 504px;
     max-height: 564px;
     padding: 232px 36px 0px 100px;
-  }
-
-  .main-title {
-    font-size: 76px;
   }
 
   .hero-text {
