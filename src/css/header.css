@@ -168,7 +168,7 @@
 
 @media screen and (min-width: 1280px) {
   .header .container {
-    padding: 16px 100px;
+    padding: 0 100px;
   }
 
   .header-burger {
@@ -193,7 +193,7 @@
     background: transparent;
     border: 1px solid #fff;
     border-radius: 12px;
-    width: 118px;
+    padding: 12px;
     height: 44px;
     display: flex;
     justify-content: center;
