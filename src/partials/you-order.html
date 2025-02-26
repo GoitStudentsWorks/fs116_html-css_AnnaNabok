@@ -10,12 +10,13 @@
       today and start enjoying the best that nature has to offer!
     </p>
     <div class="order-form-container">
-      <h3 class="order-form-title">
+      <p class="order-form-title">
         Ordering <span class="form-title-accent">from us</span> is quick and
         easy! Fill out <span class="form-title-accent">the form</span> below and
         we will contact you !
-      </h3>
+    </p>
       <form class="order-form" name="order-form" autocomplete="off">
+        <label class="visually-hidden" for="order-name">Full Name</label>
         <input
           class="order-form-input"
           id="order-name"
@@ -25,15 +26,17 @@
           minlength="3"
           required
         />
+        <label class="visually-hidden" for="order-email">Email</label>
         <input
           class="order-form-input"
           id="order-email"
           name="order-email"
           type="email"
           placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          pattern="(?:[^\s@]*)[\w]{1}@{1}(?:[^\s@]+)[\.]{1}(?:[^\s@]{1,255}\w{1})"
           required
         />
+        <label class="visually-hidden" for="order-comment">Comment</label>
         <textarea
           class="order-form-textarea"
           id="order-comment"
@@ -45,30 +48,36 @@
       </form>
     </div>
     <div class="order-social-container">
-      <img
-        class="order-img-mobile"
-        srcset="/img/order/order-mobile.webp 1x, /img/order/order-mobile2x.webp 2x"
-        src="/img/order/order-mobile.webp"
-        alt="A woman in a purple sports bra is preparing a smoothie in a modern kitchen. She is squeezing a lemon into a blender bottle filled with sliced bananas. Various fresh fruits, including apples, strawberries, and oranges, are on the countertop."
-        width="295"
-        height="272"
-      />
-      <img
-        class="order-img-tablet"
-        srcset="/img/order/order-tablet.webp 1x, /img/order/order-tablet2x.webp 2x"
-        src="/img/order/order-tablet.webp"
-        alt="A woman in a purple sports bra is preparing a smoothie in a modern kitchen. She is squeezing a lemon into a blender bottle filled with sliced bananas. Various fresh fruits, including apples, strawberries, and oranges, are on the countertop."
-        width="536"
-        height="316"
-      />
-      <img
-        class="order-img-desktop"
-        srcset="/img/order/order-desktop.webp 1x, /img/order/order-desktop2x.webp 2x"
-        src="/img/order/order-desktop.webp"
-        alt="A woman in a purple sports bra is preparing a smoothie in a modern kitchen. She is squeezing a lemon into a blender bottle filled with sliced bananas. Various fresh fruits, including apples, strawberries, and oranges, are on the countertop."
-        width="428"
-        height="352"
-      />
+      <picture>
+        <source
+          media="(min-width: 1158px)"
+          srcset="
+            /img/order/order-desktop.webp   1x,
+            /img/order/order-desktop2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/order/order-tablet.webp   1x,
+            /img/order/order-tablet2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            /img/order/order-mobile.webp   1x,
+            /img/order/order-mobile2x.webp 2x
+          "
+        />
+        <img
+          src="/img/order/order-desktop.webp"
+          alt="A woman in a purple sports bra is preparing a smoothie in a modern kitchen. She is squeezing a lemon into a blender bottle filled with sliced bananas. Various fresh fruits, including apples, strawberries, and oranges, are on the countertop."
+          width="428"
+          height="352"
+          class="order-img"
+        />
+      </picture>
       <p class="order-social-text">Follow us on our social networks:</p>
       <ul class="order-social-list">
         <li class="order-social-item">
