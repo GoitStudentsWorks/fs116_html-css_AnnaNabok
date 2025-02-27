@@ -1,28 +1,28 @@
 .discount {
-  background-color: #fbfbfb;
+  background-color: var(--white);
 }
 
 .discount-text {
   font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   font-size: 48px;
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #141414;
+  color: var(--black);
 }
 
 .discount-text-accent {
   display: block;
   border-radius: 12px;
-  background: #576f35;
-  color: #fbfbfb;
+  background: var(--green);
+  color: var(--white);
   border-radius: 12px;
 }
 
 @media only screen and (min-width: 768px) {
   .discount-text {
-    font-size: 64px;
+    font-size: var(--font-size-h2);
     line-height: 1;
     padding-left: 16px;
   }
@@ -35,7 +35,7 @@
 
 @media only screen and (min-width: 1280px) {
   .discount-text {
-    font-size: 76px;
+    font-size: var(--font-size-h1);
   }
 
   .discount-text-accent {
