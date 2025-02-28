@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-organic-shop/",
+    "build": "vite build --base=/fs116_html-css_AnnaNabok/",
     "preview": "vite preview"
   },
   "devDependencies": {
